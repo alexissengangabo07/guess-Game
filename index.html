@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDA - Exercice JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../images/js.png" type="image/x-icon">
+    <link rel="stylesheet" href="../MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+    <meta name="description" content="Exercices pratiques avec JavaScript fait dans le but de matrise le langage JavaScript en resolvant quelques problemes pratiques en associant nos recherches et les leçons apprise à Goma Digital Academy">
+</head>
+
+<body>
+        <main>
+            <div class="form-card">
+                <form id="form" autocomplete="off">
+                    <div class="form-title">
+                        <h2>Guess Game</h2>
+                    </div>
+                    <div class="form-group">
+                        <label>Interval(de 0 à <span id="intervalText"></span>)</label>
+                        <select name="nombre" id="interval" class="input-form">
+                            <option value="1">10</option>
+                            <option value="2">20</option>
+                            <option value="3">30</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input type="number" class="input-form" id="nombre" name="password" placeholder="Entrer un nombre" min="0" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="ENVOYER" class="btn-form" id="btn-form" name="btn-form" />
+                    </div>
+            </div>
+            </form>
+    </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
